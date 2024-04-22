@@ -11,7 +11,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Blogiz",
+  title: "Blog Next js",
   description:
     "Welcome to Blogiz – where innovation meets imagination in the dynamic realm of technology, offering a thrilling journey through the latest trends and groundbreaking discoveries in the world of tech!",
 };
