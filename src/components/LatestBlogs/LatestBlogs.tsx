@@ -9,12 +9,13 @@ const LatestBlogs = ({ blogs }: { blogs: Blog[] }) => {
             <p className="text-xl text-center text-gray-400 w-2/4 mx-auto">
                 <i>Dive into the fascinating world of quantum computing, where unlocking unprecedented computational power.</i>
             </p>
-
+            {/* 2 clomn */}
             <div className="grid grid-cols-2 gap-4 my-8">
                 {
                     blogs.slice(0, 2).map((blog) => <LatestBlogCard key={blog.id} blog={blog} />)
                 }
             </div>
+            {/* 3 colum */}
             <div className="grid grid-cols-3 gap-4 my-8">
                 {
                     blogs.slice(2, 5).map((blog) => <BlogCard key={blog.id} blog={blog} />)
